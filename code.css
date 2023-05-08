@@ -1,0 +1,29 @@
+.copyable-content {
+  background: #000;
+  display: grid;
+  grid-template-columns: calc(100% - 40px) 20px;
+  align-items: baseline;
+}
+.copyable-content .code {
+  font-size: 0.9rem;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  white-space: pre-wrap;
+}
+.copyable-content .code code {
+  background: transparent !important;
+  width: 100%;
+  padding: 1rem;
+}
+.copyable-content .code code .token-line {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.copyable-content button.beyond-icon-button svg.beyond-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--text-on-secondary);
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvZGVcXHNhc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0M7RUFDQTtFQUNBO0VBQ0c7O0FBQ0g7RUFDQztFQUVBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7RUFDQTtFQUNBOztBQUVBO0VBQ0M7O0FBT0Y7RUFDQztFQUNBO0VBQ0EiLCJmaWxlIjoiIn0= */
